@@ -1,5 +1,5 @@
 import React from 'react'
-import Topbar from '../components/TopBar'
+import Topbar from '../components/Topbar'
 import ItemsDisplay from '../components/ItemsDisplay'
 import Chains from '../components/Chains'
 import FirmCollections from '../components/FirmCollections'
