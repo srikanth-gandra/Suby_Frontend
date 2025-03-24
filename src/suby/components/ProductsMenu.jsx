@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { API_URI } from '../Api';
 import { useParams } from 'react-router-dom';
-import Topbar from './TopBar';
+import Topbar from './Topbar';
 
 const ProductsMenu = () => {
     const { firmId, firmName } = useParams();
