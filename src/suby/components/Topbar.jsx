@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSearch, FaUserCircle } from "react-icons/fa";
+import { FaSearch, FaUserCircle, FaTruck  } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Topbar = () => {
@@ -36,11 +36,11 @@ const Topbar = () => {
 
       {/* User Authentication */}
       <div className="userAuth flex items-center space-x-6">
-        <div
-          className="text-lg font-semibold text-gray-700 cursor-pointer hover:text-orange-500"
+      <div
+          className="text-lg font-semibold text-gray-700 cursor-pointer hover:text-orange-500 flex items-center"
           onClick={handleSupplierLogin}
         >
-          Supplier Login
+          <FaTruck className="mr-2" /> Supplier Login
         </div>
         {/* <div className="text-lg font-semibold text-gray-700 cursor-pointer hover:text-orange-500">
           Login
