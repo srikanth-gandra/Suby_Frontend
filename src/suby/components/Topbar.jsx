@@ -42,10 +42,10 @@ const Topbar = () => {
         >
           Supplier Login
         </div>
-        <div className="text-lg font-semibold text-gray-700 cursor-pointer hover:text-orange-500">
+        {/* <div className="text-lg font-semibold text-gray-700 cursor-pointer hover:text-orange-500">
           Login
         </div>
-        <FaUserCircle className="text-3xl text-gray-700 cursor-pointer" />
+        <FaUserCircle className="text-3xl text-gray-700 cursor-pointer" /> */}
       </div>
     </div>
   );
